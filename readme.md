@@ -5,16 +5,6 @@
 
 
 
-[//]: # (Image References)
-
-[image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
-[image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
-[image5]: ./examples/placeholder.png "Traffic Sign 2"
-[image6]: ./examples/placeholder.png "Traffic Sign 3"
-[image7]: ./examples/placeholder.png "Traffic Sign 4"
-[image8]: ./examples/placeholder.png "Traffic Sign 5"
 
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -180,7 +170,7 @@ For the second image, the model is very sure that this is a Right-of-way at the 
 | Very low	      			| Double curve					 				|
 | Very low			    | Pedestrians      							|
 
-For the third image, the model is very sure that this is a Road Work sign (probability of 0.88), and the image does contain a stop sign. The top five soft max probabilities were
+For the third image, the model is very sure that this is a Road Work sign (probability of 0.88), and the image does contain a Road Work  sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -190,7 +180,7 @@ For the third image, the model is very sure that this is a Road Work sign (proba
 | .002	      			| Bumpy road					 				|
 | .002				    | Road narrows on the right    							|
 
-For the fourth image, the model is very sure that this is a Speed limit (80km/h) sign (probability of 0.96), and the image does contain a stop sign. The top five soft max probabilities were
+For the fourth image, the model is very sure that this is a Speed limit (80km/h) sign (probability of 0.96), and the image does contain a Speed limit (80km/h). The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
@@ -200,7 +190,7 @@ For the fourth image, the model is very sure that this is a Speed limit (80km/h)
 | .00004	      			| Speed limit (60km/h)					 				|
 | .00002			    | Turn right ahead     							|
 
-For the fifth image, the model is pretty sure that this is a stop sign (probability of 0.72), and the image does contain a stop sign. The top five soft max probabilities were
+For the fifth image, the model is pretty sure that this is a Turn right ahead sign (probability of 0.72), and the image does contain a Turn right ahead. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
